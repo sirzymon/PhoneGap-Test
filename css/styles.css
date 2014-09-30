@@ -25,6 +25,41 @@ img {
 	border: 0;
 	max-width: 100%;
 }
+/*PANEL DIV START*/
+/*ABOUT ME*/
+.about {
+	padding: 1em;
+	text-shadow: 1px 1px 1px #000;
+}
+#personal {
+	background-color: #333;
+}
+#hobby {
+	background-color: #666;
+}
+#gaming {
+	background-color: #999;
+}
+/*CAREER*/
+.career {
+	padding: 1em;
+	text-shadow: 1px 1px 1px #000;
+}
+#college {
+	background-color: #333;
+}
+#internship {
+	background-color: #666;
+}
+#work {
+	background-color: #999;
+}
+/*CONTACT*/
+.contact {
+	padding: 1em;
+	text-shadow: 1px 1px 1px #000;
+}
+/*PANEL DIV END*/
 /* Main Styles */
 
 body {
@@ -40,17 +75,16 @@ footer {
 	left: 0;
 	height: 48px;
 	background-color: #c27b00;
-	border-top: 1px solid #eee;
 }
 header, footer {
-	background-color: #deb500;
+	background-color: #e89600;
 	padding: 0;
 	position: absolute;
 	z-index: 2;
 	font-size: 20px;
 	width: 100%;
 	text-align: center;
-	color: #f3f3f3;
+	color: #FFF;
 	font-weight: bold;
 	text-shadow: 0 -1px 0 rgba(0,0,0,0.5);
 	line-height: 45px;
@@ -84,7 +118,7 @@ h1 {
 	width: 33.333%;
 }
 #tab-bar a {
-	color: #cdcdcd;
+	color: #FFF;
 	display: block;
 	font-weight: bold;
 	overflow: hidden;

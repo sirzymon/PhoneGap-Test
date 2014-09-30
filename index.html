@@ -3,6 +3,7 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
 <meta name="apple-mobile-web-app-capable" content="yes" />
+<meta charset="utf-8">
 <!-- CSS START -->
 <link rel="stylesheet" href="css/styles.css">
 <!-- CSS END -->
@@ -13,26 +14,156 @@
 <script src="js/iscroll-lite.js"></script>
 <script src="js/app.js"></script>
 <!-- JAVASCRIPT END -->
-<title>Simple Mortgage Calculator</title>
+<title>Avidroid by Avidos</title>
 </head>
 <body>
 <header>
-	<h1>Mortgage Calculator</h1>
+	<h1>Avidroid</h1>
 </header>
 <div id="wrapper">
 	<div id="main-content">
 		<div id="pages">
-			<div id="repayment" class="current"> repayment </div>
-			<div id="borrowing"> borrowing </div>
-			<div id="setting"> setting </div>
+			<div id="about" class="current">
+				<div class="about" id="personal">
+					<h4>Personal</h4>
+					<hr/>
+					<table id="tablePersonal">
+						<tr>
+							<td>Full Name:</td>
+							<td>Zymon Prado Casta&ntilde;eda</td>
+						</tr>
+						<tr>
+							<td>Birthdate:</td>
+							<td>November x, 1990 + (x - 3)</td>
+						</tr>
+						<tr>
+							<td>Age:</td>
+							<td>20 + (x - 2)</td>
+						</tr>
+						<tr>
+							<td>Hometown:</td>
+							<td>Calamba City, Laguna</td>
+						</tr>
+						<tr>
+							<td>Lives in:</td>
+							<td>Muntinlupa City</td>
+						</tr>
+					</table>
+				</div>
+				<div class="about" id="hobby">
+					<h4>Hobbies</h4>
+					<hr/>
+					<table id="tableHobbies">
+						<tr>
+							<td>Indoor:</td>
+							<td>Playing guitar, Listening to music, Reading books, and writing something just to fiddle with words</td>
+						</tr>
+						<tr>
+							<td>Outdoor:</td>
+							<td>Biking, Playing basketball, and randomly walking on some park</td>
+						</tr>
+					</table>
+				</div>
+				<div class="about" id="gaming">
+					<h4>Gaming</h4>
+					<hr/>
+					<table id="tableGaming">
+						<tr>
+							<td>Consoles:</td>
+							<td>PS1, PS2, Dreamcast, and XBOX</td>
+						</tr>
+						<tr>
+							<td>PC Games:</td>
+							<td>NBA 2KXX, Call of Duty Releases, Dawn of War II, Counter Strike, Dragon Nest SEA, and Dota 2</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div id="career">
+				<div class="career" id="college">
+					<h4>College</h4>
+					<hr/>
+					<table id="tableCollege">
+						<tr>
+							<td>Malayan Colleges Laguna</td>
+							<td>Computer Engineering</td>
+						</tr>
+						<tr>
+							<td>LPU - Laguna</td>
+							<td>Information Technology</td>
+						</tr>
+					</table>
+					<p>Spent most of my early college days finding out what I wanted, hence making me fail throughout those years except for courses that I love dealing with like Drawing, Painting, Designin, etc. Then later on I've realized what I really wanted and make ways to improve myself and to prove everyone that doubted in me wrong. I do not have a strong personality to speak up and argue with people to clear out my point, hence I've shown them how I work and what can I do by the output I'm giving to them.</p>
+				</div>
+				<div class="career" id="internship">
+					<h4>Internship/OJT</h4>
+					<hr/>
+					<table id="tableInternship">
+						<tr>
+							<td>E-Science Corporation</td>
+							<td>OJT - Developer</td>
+						</tr>
+					</table>
+					<p>It was a great experience to be in a company like this, working with people that is really in a certain level of experience and skill. A fruitful experience in both field and personal growth, made me realize things can't work out like you always want them but in the end you'll get what is for you. </p>
+				</div>
+				<div class="career" id="work">
+					<h4>Work</h4>
+					<hr/>
+					<table id="tableWork">
+						<tr>
+							<td>Riverwalk Digital Laboratories</td>
+							<td>Trainee - Developer</td>
+						</tr>
+						<tr>
+							<td>Riverwalk Digital Laboratories</td>
+							<td>Probationary - Developer</td>
+						</tr>
+					</table>
+					<p>As a young man living in this field it was rough when you are starting, doubts will build up in the back of your mind questioning your skills when you are studying. Soon you'll be making things that you didn't even think you can, it is the growth that you'll treasure the mose as you look back in the previous months where you are troubled on something you can accomplish with less time and effort because of your current experience.</p>
+				</div>
+			</div>
+			<div id="contact">
+				<div class="contact" id="sns">
+					<h4>Social Networking</h4>
+					<hr/>
+					<table id="tableSNS">
+						<tr>
+							<td>Facebook</td>
+							<td>mo.castaneda</td>
+						</tr>
+						<tr>
+							<td>Twitter</td>
+							<td>SirZymon</td>
+						</tr>
+						<tr>
+							<td>Tumblr</td>
+							<td>avidgamer</td>
+						</tr>
+					</table>
+				</div>
+				<div class="contact" id="additional">
+					<h4>Additional</h4>
+					<hr/>
+					<table id="tableAdditional">
+						<tr>
+							<td>Steam</td>
+							<td>Avidos</td>
+						</tr>
+						<tr>
+							<td>Cherry Credits</td>
+							<td>avidgamer26</td>
+						</tr>
+					</table>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>
 <footer>
 	<ul id="tab-bar">
-		<li> Repayment </li>
-		<li> Borrowing </li>
-		<li> Setting </li>
+		<li> <a href="#about">About Me</a> </li>
+		<li> <a href="#career">Career</a> </li>
+		<li> <a href="#contact">Contact</a> </li>
 	</ul>
 </footer>
 </body>
